@@ -102,7 +102,7 @@ public class ProjectDialog extends JDialog {
         gbc.anchor = GridBagConstraints.CENTER;
         centerPanel.add(prTitleField, gbc);
         
-        sdLabel.setText(Local.getString("Start date"));
+        sdLabel.setText(Local.getString("Beginning date"));
         sdLabel.setPreferredSize(new Dimension(70, 20));
         sdLabel.setMinimumSize(new Dimension(70, 20));
         sdLabel.setMaximumSize(new Dimension(70, 20));
