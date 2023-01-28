@@ -32,7 +32,7 @@ import main.java.memoranda.ui.htmleditor.util.Local;
 
 public class FindDialog extends JDialog {
 	JPanel areaPanel = new JPanel(new GridBagLayout());
-	JPanel buttonsPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 10, 10));
+	JPanel buttonsPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 10));
 	JButton cancelB = new JButton();
 	JButton okB = new JButton();
 	JPanel headerPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
