@@ -74,7 +74,7 @@ public class ProjectDialog extends JDialog {
         getContentPane().setLayout(new GridBagLayout());
         topPanel.setBorder(new EmptyBorder(new Insets(0, 5, 0, 5)));
         topPanel.setBackground(Color.WHITE);        
-        header.setFont(new java.awt.Font("Dialog", 0, 20));
+        header.setFont(new java.awt.Font("Dialog", 0, 50));
         header.setForeground(new Color(0, 0, 124));
         header.setText(Local.getString("Project"));
         //header.setHorizontalAlignment(SwingConstants.CENTER);
