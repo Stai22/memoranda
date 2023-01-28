@@ -75,7 +75,7 @@ public class ProjectDialog extends JDialog {
         topPanel.setBorder(new EmptyBorder(new Insets(0, 5, 0, 5)));
         topPanel.setBackground(Color.WHITE);        
         header.setFont(new java.awt.Font("Dialog", 0, 50));
-        header.setForeground(new Color(0, 0, 124));
+        header.setForeground(new Color(0, 0, 200));
         header.setText(Local.getString("Project"));
         //header.setHorizontalAlignment(SwingConstants.CENTER);
         header.setIcon(new ImageIcon(main.java.memoranda.ui.ProjectDialog.class.getResource(
